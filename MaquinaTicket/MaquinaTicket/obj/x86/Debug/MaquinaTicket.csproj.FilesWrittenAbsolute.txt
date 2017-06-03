@@ -1,0 +1,5 @@
+/home/killer/Documents/EjerciciosPoo/MaquinaTicket/MaquinaTicket/obj/x86/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/home/killer/Documents/EjerciciosPoo/MaquinaTicket/MaquinaTicket/bin/Debug/MaquinaTicket.exe.mdb
+/home/killer/Documents/EjerciciosPoo/MaquinaTicket/MaquinaTicket/bin/Debug/MaquinaTicket.exe
+/home/killer/Documents/EjerciciosPoo/MaquinaTicket/MaquinaTicket/obj/x86/Debug/MaquinaTicket.exe
+/home/killer/Documents/EjerciciosPoo/MaquinaTicket/MaquinaTicket/obj/x86/Debug/MaquinaTicket.exe.mdb
