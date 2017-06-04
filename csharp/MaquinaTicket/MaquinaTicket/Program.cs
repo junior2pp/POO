@@ -22,13 +22,18 @@ namespace MaquinaTicket
 			int costo;
 			//Instanciar el Objeto
 			while (true) {
-				Console.WriteLine ("Insertar el costo del ticket(constructor): ");
-				costo = int.Parse (Console.ReadLine());
-				if (costo > 0) {
-					break;
-				} else {
-					Console.WriteLine ("Ingrese un Costo Mayor a 0");
+				try {
+						Console.WriteLine ("Insertar el costo del ticket(constructor): ");
+						costo = int.Parse (Console.ReadLine());	
+						if (costo > 0) {
+								break;
+							} else {
+								Console.WriteLine ("Ingrese un Costo Mayor a 0");
+							}
+				} catch (Exception ex) {
+					Console.WriteLine (ex.Message);
 				}
+
 				Console.ReadKey ();
 				Console.Clear ();
 					

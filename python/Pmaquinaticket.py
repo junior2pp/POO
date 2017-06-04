@@ -15,12 +15,16 @@ def Menu():
 
 
 while True:
-    os.system('cls||clear')
-    costo = int(input("Inserte Costo del Ticket(init):"))
-    if costo > 0:
-        break
-    else:
-        raw_input("Inserte Moneda Mayor a 0")
+    try:
+        os.system('cls||clear')
+        costo = int(input("Inserte Costo del Ticket(init):"))
+        if costo > 0:
+            break
+        else:
+            raw_input("Inserte Moneda Mayor a 0")
+    except Exception as e:
+        print e
+        raw_input("Presione Una tecla Para Continuar")
 
 #CRECION DEL OBJETO
 objeto = MaquinaTicket(costo)
