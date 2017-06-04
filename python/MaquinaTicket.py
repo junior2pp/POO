@@ -6,8 +6,7 @@ class MaquinaTicket:
             self.__balance = balance
             self.__contadorTicket = contadorTicket
             self.__total = total
-        else:
-            print "Inserte un precio mayor a 0"
+
 
     """METODOS DE LA CLASE"""
     def getPrecio(self):
@@ -22,11 +21,14 @@ class MaquinaTicket:
         else:
             print "Inserte Moneda mayor a 0"
 
-
     def VaciarMaquina(self):
         TotalTemp = self.__total
         self.__total = 0
+        print "Maquina Vacia"
         return TotalTemp
+
+    def getTotal(self):
+         return self.__total,self.__contadorTicket
 
     def ImprimirTicket(self):
         if self.__balance >= self.__precio:
@@ -39,16 +41,3 @@ class MaquinaTicket:
             self.__balance -= self.__precio
         else:
             print "Necesita %d centavos mas" % (self.__precio - self.__balance)
-
-
-
-
-
-
-
-
-
-objeto = MaquinaTicket(10)
-objeto.InsertarMoneda(50)
-
-print objeto.getPrecio()

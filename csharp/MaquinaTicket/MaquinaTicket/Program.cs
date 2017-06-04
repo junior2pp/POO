@@ -19,9 +19,20 @@ namespace MaquinaTicket
 
 		static void MaquinaTicket(){
 		
-			Console.WriteLine ("Insertar el costo del ticket(constructor): ");
-			int costo = int.Parse (Console.ReadLine());
+			int costo;
 			//Instanciar el Objeto
+			while (true) {
+				Console.WriteLine ("Insertar el costo del ticket(constructor): ");
+				costo = int.Parse (Console.ReadLine());
+				if (costo > 0) {
+					break;
+				} else {
+					Console.WriteLine ("Ingrese un Costo Mayor a 0");
+				}
+				Console.ReadKey ();
+				Console.Clear ();
+					
+			}
 			MaquinaTicket maquina1 = new MaquinaTicket (costo);
 			Menu menu1 = new Menu ();
 			//LIMPIAR LA CONSOLA

@@ -23,9 +23,7 @@ namespace MaquinaTicket
 				Balance = 0;
 				total = 0;
 				ContadorTicket = 0;
-			} else {
-				Console.WriteLine ("Inserte una cantidad mayor a 0");
-			}
+			} 
 
 		}
 		//Obtener Precio Y Setear Precio
