@@ -1,3 +1,9 @@
+"""
+  AUTOR=LUIS ALFREDO SUAREZ LITARDO
+  2017-06-03
+  CLASE MAQUINA DE TICKETS
+  TELEMATICA 4TO MODULO
+"""
 class MaquinaTicket:
     """docstring for MaquinaTicket."""
     def __init__(self,precio=0,balance=0,total=0,contadorTicket=0):

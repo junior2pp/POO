@@ -1,3 +1,10 @@
+"""
+  AUTOR=LUIS ALFREDO SUAREZ LITARDO
+  2017-06-03
+  MAQUINA DE TICKETS
+  TELEMATICA 4TO MODULO
+"""
+
 from MaquinaTicket import MaquinaTicket
 import os
 import sys
