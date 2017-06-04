@@ -65,6 +65,7 @@ namespace MaquinaTicket
 					break;
 				case "7":
 					Console.WriteLine ("---TICKETS VENDIDOS --> {0}", maquina1.ContadorTicket);
+					Console.WriteLine ("---TOTAL -------------> {0}", maquina1.Total);
 					Console.ReadKey ();
 					break;
 
