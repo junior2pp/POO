@@ -30,7 +30,6 @@ class MaquinaTicket:
     def VaciarMaquina(self):
         TotalTemp = self.__total
         self.__total = 0
-        print "Maquina Vacia"
         return TotalTemp
 
     def getTotal(self):

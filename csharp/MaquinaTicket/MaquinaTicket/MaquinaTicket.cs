@@ -23,16 +23,16 @@ namespace MaquinaTicket
 				Balance = 0;
 				total = 0;
 				ContadorTicket = 0;
-			} 
+			}
 
 		}
-		//Obtener Precio Y Setear Precio
+		//METODOS MODIFICADORES
 		public int Precio
 		{
-			get{ 
+			get{
 				return precio;
 			}
-			set{ 
+			set{
 				if (value > 0) {
 					precio = value;
 				}
@@ -41,54 +41,47 @@ namespace MaquinaTicket
 		//Obtener Balance y setear balance
 		public int Balance
 		{
-			get{ 
+			get{
 				return balance;
 			}
-			set{ 
+			set{
 				if (value >= 0) {
 					balance = value;
-				} else {
-					Console.WriteLine ("Inserte una Moneda Mayor a 0");	
 				}
 			}
 		}
 		public int ContadorTicket{
-			get{ 
+			get{
 				return contadorTicket;
 			}
-			set { 
+			set {
 				if (value >= 0) {
 					contadorTicket = value;
 				}
 			}
 		}
 		public int Total{
-			get{ 
+			get{
 				return total;
 			}
-			set{ 
+			set{
 				if (total >= 0) {
 					total = value;
 				}
 			}
 		}
 		//Vaciar Maquina y retornar el total
-		public int VaciarMaquina{
-			get{
+		public int VaciarMaquina (){
 				int TempTotal = total;
 				Total = 0;
 				ContadorTicket = 0;
 				return TempTotal;
-			}
 		}
 
-		public int reembolsoBalance{
-			get	
-			{
+		public int reembolsoBalance(){
 				int montoRetorno = Balance;
 				Balance = 0;
 				return montoRetorno;
-			}
 		}
 		//Imprimir ticket
 		public void ImprimirTicket(){

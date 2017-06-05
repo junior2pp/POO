@@ -60,8 +60,9 @@ while True:
                 try:
                     resultado = acciones[opcion]()
                     print resultado
-                except KeyError:
+                except Exception as e:
                     print "Ingrese una opcion entre 1 y 7"
+                    print e
 
 
         raw_input("Presione una tecla para continuar.......")

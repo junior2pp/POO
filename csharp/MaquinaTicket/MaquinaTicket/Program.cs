@@ -65,7 +65,7 @@ namespace MaquinaTicket
 					break;
 
 				case "4":
-					Console.WriteLine ("---REEMBOLSO BALANCE ---> {0}", maquina1.reembolsoBalance);
+					Console.WriteLine ("---REEMBOLSO BALANCE ---> {0}", maquina1.reembolsoBalance());
 					Console.ReadKey ();
 					break;
 
@@ -75,7 +75,7 @@ namespace MaquinaTicket
 					break;
 
 				case "6":
-					Console.WriteLine ("---TOTAL EN MAQUINA ---> {0}", maquina1.VaciarMaquina);
+					Console.WriteLine ("---TOTAL EN MAQUINA ---> {0}", maquina1.VaciarMaquina());
 					Console.WriteLine ("--LA MAQUINA ESTA VACIA");
 					Console.ReadKey ();
 					break;
