@@ -19,8 +19,8 @@ func main() {
 	//comprar ticket
 	if m.GetBalance() >= m.GetPrecio() {
 		m.IncrementarContador()
-		m.SetTotal(m.GetPrecio())
-		m.SetBalance((m.GetBalance() - m.GetPrecio()))
+		m.SetTotal(m.GetTotal() + m.GetPrecio())
+		m.SetBalance(m.GetBalance() - m.GetPrecio())
 		contador, precio := m.ImprimirTicket()
 		fmt.Println("TICKET #", contador)
 		fmt.Println("PRECIO", precio)
