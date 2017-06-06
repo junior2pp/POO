@@ -1,10 +1,8 @@
 ﻿<Properties StartupItem="MaquinaTicket/MaquinaTicket.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="MaquinaTicket/Program.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="MaquinaTicket/Menu.cs">
     <Files>
-      <File FileName="MaquinaTicket/MaquinaTicket.cs" Line="85" Column="18" />
-      <File FileName="MaquinaTicket/Program.cs" Line="21" Column="6" />
-      <File FileName="MaquinaTicket/Menu.cs" Line="7" Column="4" />
+      <File FileName="MaquinaTicket/Menu.cs" Line="4" Column="14" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
