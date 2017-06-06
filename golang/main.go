@@ -6,7 +6,7 @@ import (
 	"os"
 	"os/exec"
 
-	"github.com/MaquinaTicket"
+	"github.com/junior2pp/MaquinaTicket"
 )
 
 func main() {
@@ -25,6 +25,8 @@ func main() {
 			fmt.Println("Inserte Moneda: ")
 			fmt.Scan(&moneda)
 			m.SetBalance(moneda)
+			fmt.Println("Moneda Agregada Correctamente ok")
+			pausa()
 		case 2:
 			fmt.Println("PRECIO --> ", m.GetPrecio())
 			pausa()
@@ -38,10 +40,11 @@ func main() {
 			fmt.Println(m.VaciarMaquina())
 			pausa()
 		case 6:
-			total := m.GetTotal()
-			vendidos := m.GetContador()
-			fmt.Println("Vendidos --->", vendidos)
+			precio, balance, total, contador := m.GetMaquinaInfo()
+			fmt.Println("Vendidos --->", contador)
 			fmt.Println("Total ------>", total)
+			fmt.Println("Balance ---->", balance)
+			fmt.Println("Precio ----->", precio)
 			pausa()
 		case 7:
 			os.Exit(0)
@@ -58,7 +61,7 @@ func Menu() {
 	fmt.Println("3.Obtener Balance")
 	fmt.Println("4.Imprimir Ticket")
 	fmt.Println("5.Vaciar Maquina")
-	fmt.Println("6.Obtener Cantidad de Tickets Vendidos y Total")
+	fmt.Println("6.Informacion de la Maquina")
 	fmt.Println("7.Salir")
 }
 func limpiarconsola() {
