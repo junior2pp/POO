@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.target=Canton
+comment1.params=
+comment1.target=Canton()
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ Canton\r\n
+comment2.params=Canton
+comment2.target=void\ Create(java.lang.String)
+comment2.text=\r\n\ An\ example\ of\ a\ method\ -\ replace\ this\ comment\ with\ your\ own\r\n\ \r\n\ @param\ \ y\ \ \ a\ sample\ parameter\ for\ a\ method\r\n\ @return\ \ \ \ \ the\ sum\ of\ x\ and\ y\ \r\n
+comment3.params=id\ NuevoCanton
+comment3.target=void\ Update(int,\ java.lang.String)
+comment4.params=id
+comment4.target=void\ Delete(int)
+comment5.params=
+comment5.target=void\ GetAll()
+comment6.params=id
+comment6.target=java.lang.String\ GetbyID(int)
+comment7.params=
+comment7.target=int\ GetQuantity()
+comment8.params=Canton
+comment8.target=boolean\ Contains(java.lang.String)
+comment9.params=
+comment9.target=void\ DeleteAll()
+numComments=10
