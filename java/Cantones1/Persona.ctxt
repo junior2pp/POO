@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.target=Persona
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ Persona\ here.\r\n\ \r\n\ @author\ (your\ name)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=ID\ nombre\ sexo\ edad\ trabaja
+comment1.target=Persona(int,\ java.lang.String,\ boolean,\ int,\ boolean)
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ Persona\r\n
+comment2.params=
+comment2.target=java.lang.String\ getNombre()
+comment3.params=
+comment3.target=boolean\ getSexo()
+comment4.params=
+comment4.target=int\ getEdad()
+comment5.params=
+comment5.target=boolean\ getTrabaja()
+comment6.params=newName
+comment6.target=void\ cambiarNombre(java.lang.String)
+numComments=7
